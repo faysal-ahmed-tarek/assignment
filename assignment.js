@@ -29,19 +29,19 @@ console.log(woodCalculator(2,3,1));
 
                             ///3. building assignment strt here   ///
 
-                    function brickCalculator(tala) {
-                        if (tala <= 10) {
-                            var Eit = (tala * 15 * 1000);
+                    function brickCalculator(floor) {
+                        if (floor <= 10) {
+                            var Eit = (floor * 15 * 1000);
                             return Eit;
                         }
                     
-                        else if (tala > 10 && tala < 20) {
-                            var Eit = (10 * 15 * 1000) + (tala - 10) * 12 * 1000;
+                        else if (floor > 10 && floor < 20) {
+                            var Eit = (10 * 15 * 1000) + (floor - 10) * 12 * 1000;
                         return Eit;
                     }
                     
-                        else if (tala => 20) {
-                        var Eit = (10 * 15 * 1000) + (10 * 12 * 1000) + (tala - 20) * 10 * 1000;
+                        else if (floor => 20) {
+                        var Eit = (10 * 15 * 1000) + (10 * 12 * 1000) + (floor - 20) * 10 * 1000;
                     return Eit;
                         }
                     }
